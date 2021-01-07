@@ -1,0 +1,131 @@
+{
+	"username":"MarckHz",
+	"birthday":"07/09/2019",
+	"product":[
+		{ 
+			"product_name":"product_name",
+			"product_type":"known product",
+			"number_surveys":"500",
+			"emphatize":[
+				{"interiew":[{
+						"market":"students",
+						"gender":["Male", "Female"],
+						"age_range":[{
+								"start":"06/08/2019", 
+								"end":"07/09/2019"
+							}]  
+						},
+						{"description":"UVM students..."} 
+					]
+				},
+				{"derivation":[
+						{"attributes":["x1, x2...Xn,"]}
+					]
+				},
+				{"classificaction":[
+					{"final_attributes":["x1, x2,...Xn"]}
+					]
+				},
+				{"final":[{"final_attributes":["x1, x2,...Xn"]}
+					]
+				}
+			],
+		"survey":[{
+				"clients":[{
+					"_id":"BSON.object_id",
+					"first_name":"Marco",
+					"last_name":"Hernandez",
+					"address":[
+						{
+							"street":"roque espinoza",
+							"localtion":"Antonio Yamaguchi",
+							"postalCode":"80322",
+							"city":"Navolato",
+							"country":"Mexico"
+						}
+					],
+				  "email":"marcohdes94i@gmail.com",
+				  "gender":"Male",
+				  "occupation":"student",
+				  "work_place":"CIIDETEC",
+				 	"results":[{
+				 		"positive":[{
+				 				"blanco":"4", 
+				 				"negro":"1"
+				 			}]
+				 		},
+				 		{"negative":[{
+				 					"blanco":"1",
+				 					"negro":"2"
+				 		}]
+				 	}]	
+				}]
+		}],
+		"methodology":{"methodology_type":"0"},
+		"Report":[{
+							"attributes":
+								[
+									{
+										"id":"1",
+										"attribute":[
+												{"mean":"4.1"}, 
+												{"satisfaction":"3.95"},
+												{"kano_model":"A"},
+												{"refined_kano":"LA"}, 
+												{"I_S_model":"Excellent"}
+											]
+									},
+									{	
+										"id":"2",
+										"attribute":[
+											{"mean":"4.1"}, 
+											{"satisfaction":"3.95"},
+											{"kano_model":"A"},
+											{"refined_kano":"LA"}, 
+											{"I_S_model":"Excellent"}
+									]
+								}
+							],				
+					"total":[
+										{"mean":"3.2901"},
+										{"satisfaction":"3.5397"}
+									]
+					}],
+		"define_profile":[{
+											"Profession":"Students", 
+											"Gender":["Male","Female"]
+										}],
+		"Scrum":[
+							{
+								"no_iteration":"1",
+								"attributes":["x1, x2,...Xn"],
+								"start":"06/08/2019",
+								"end":"06/09/2019",
+								"sprint":[{
+									"requirements":["x1, x2...Xn"],
+									"task":["x1, x2, ...Xn"],
+									"Todo":["x1, x2, ...Xn"],
+									"Doing":["x1, x2,...Xn"],
+									"Done":["x1, x2...Xn"]
+								}]
+
+							},
+							{
+								"no_iteration":"2",
+								"attributes":["x1,x2...Xn"],
+								"start":"06/09/2019",
+								"end":"06/10/2019",
+								"sprint":[{
+									"requirements":["x1, x2...Xn"],
+									"task":["x1, x2, ...Xn"],
+									"Todo":["x1, x2, ...Xn"],
+									"Doing":["x1, x2,...Xn"],
+									"Done":["x1, x2...Xn"]
+								}]
+							}	
+						],
+		"test":{
+							"acceptance":".80"
+						}
+	}] 
+}

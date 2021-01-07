@@ -1,0 +1,255 @@
+html body {
+  font-family: 'Righteous';
+}
+
+
+
+html body .login-forms{
+  background-image: url('./images/bannerCidetec.png');
+  background-size: 100%;
+  height: 100vh;
+}
+
+
+.links .link-btn{
+  padding: 25px;
+  font-family: 'Righteous';
+
+}
+
+
+.border-here{
+  border-right: 2px solid;
+  padding-right: 100px;
+
+}
+
+.links-navbar{
+  color: white;
+  list-style: none;
+  text-decoration: none;
+
+}
+.Card-login{
+  margin-top: 200px;
+  height: 592px;
+  width: 581px;
+  filter: drop-shadow(0, 15, 12, rbg(0,0,0,.22) );
+
+}
+html body .stuff{
+  background-image: url('./images/Group.png');
+  background-size:100%;
+  height: 100vh;
+}
+.radio-Form{
+
+  margin-top: 10px;
+}
+.login-form{
+  padding: 10px;
+}
+
+.product-Form{
+
+  margin-top: 50px;
+}
+.container{
+
+  margin: auto;
+}
+
+
+.Product-Title{
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  align-content: center;
+}
+
+.myFormular{
+}
+
+.myCard .mybtn{
+
+  margin: 10px;
+}
+
+.myCard{
+
+  width: 500px;
+  height: 500px;
+  margin: auto;
+
+}
+
+.container .btn{
+
+  display: flex;
+  margin: auto;
+  margin-top: 50px;
+  width: 500px;
+}
+
+.guess-field {
+
+  margin-top: 1em;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+.guess-btn{
+  display: flex;
+  margin-top: 1em;
+  flex-direction: row;
+  width: 100%;
+}
+
+.card-guess-content{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.guess-input-col{
+  margin: auto;
+}
+
+.row-menu{
+  text-align: center;
+}
+
+
+@media (max-width:375px) {
+ 
+.menu-container{
+  display: none;
+
+  } 
+}
+
+.emp-title{
+  margin-top: 50px;
+  background-color: #29B6F6;
+  text-align: center;
+  padding: 10px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  color: black;
+}
+
+.emp-title h1 {
+  font-size: 50px;
+}
+
+.table-head{
+  font-size: 30px;
+  color:black;
+  padding: 25px;
+}
+
+.dis-other-col{
+  height: 100vh;
+}
+
+
+.dis-col{
+  
+  height: 100vh;
+  background-color: rgba(41, 182,246,25%);  
+}
+.dis-col-def{
+  height: 100vh;
+  background-color: #D1FBDA;
+}
+.product-title{
+  margin: 30px;
+}
+.table{
+  margin-top: 10px;
+}
+
+
+.interview-head{
+  margin-left:50px;
+  margin-top: 20PX;
+  margin-bottom: 20PX;
+}
+
+
+.define-title{
+  margin-top: 50px;
+  background-color: #66BB6A;
+  text-align: center;
+  padding: 10px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  color: black;
+}
+
+.ideate-title{
+  background-color: #FFA726;
+  margin-top: 100px;
+  text-align: center;
+  padding: 25px;
+  border-top-right-radius: 75px;
+  border-bottom-right-radius: 75px;
+  color: black;-color: 
+}
+
+.dis-col-ideate{
+  background-color: rgba(255,167,38, .50);
+  height: 100vh;
+
+}
+.dis-col-prototype{
+  background-color: rgba(239,83,80, .50);
+  height: 100vh;
+
+}
+
+.prototype-title{
+  background-color: #EF5350;
+  margin-top: 100px;
+  text-align: center;
+  padding: 25px;
+  border-top-right-radius: 75px;
+  border-bottom-right-radius: 75px;
+  color: black;-color: 
+
+}
+
+
+
+.test-title{
+  background-color: #AB47BC;
+  margin-top: 100px;
+  text-align: center;
+  padding: 25px;
+  border-top-right-radius: 75px;
+  border-bottom-right-radius: 75px;
+  color: black;-color: 
+}
+
+.dis-col-test{
+
+  background-color: rgba(171,71,188, .25);
+  height: 100vh;
+}
+
+#myVideo{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  opacity: 0.5;
+}
+
+.guess-rows{
+  margin: 1em;
+}
+
